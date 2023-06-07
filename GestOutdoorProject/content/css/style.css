@@ -1,0 +1,213 @@
+.slideshow {
+    background-color: #FFA500; /* Cor laranja */
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF; /* Cor branca */
+    position: relative;
+}
+
+
+.tabadesao:active{
+    background-color: #000000;
+}
+.tabadesao{
+    color: #FFA500;
+}
+.slideshow-text {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.slideshow-text h2 {
+    font-size: 24px;
+}
+
+.slideshow-button {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Cor branca */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.television {
+    background-image: url("../images/televisao.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 535px;
+    height: 433px;
+    position: relative;
+    padding: 20px 20px;
+}
+
+.television .carousel-inner img {
+    width: 525px;
+    height: 323px;
+    object-fit: cover;
+}
+
+.copyright{
+    background-color: rgb(64, 64, 64);
+}
+
+footer{
+
+    border-top: solid 3px #FFA500;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.section .col-md-6 {
+    padding: 0 15px;
+}
+
+.section .col-md-6 p {
+    margin-bottom: 20px;
+}
+
+.section .col-md-4 {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.section .col-md-4 .photo {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.section .col-md-4 .photo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.photo-sobre img{
+    width: 100%;
+}
+.text-sobre > p{
+    line-height: 13.5;
+}
+.col-md-6.photo-sobre{
+    max-width: 80%;
+}
+
+.description h3 {
+    color: #FFA500;
+    margin-bottom: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFA500; /* Cor laranja */
+}
+.activo{
+    color:  #FFA500;
+}
+.img-footer img{
+    width: 80%;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.img-footer{
+    padding: 10px 10px;
+}
+
+/* Responsividade para tablet */
+@media (max-width: 991.98px) {
+    .television {
+        background-image: url("../images/televisao.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 335px;
+        height: 283px;
+        position: relative;
+        padding: 20px 20px;
+    }
+
+    .television .carousel-inner img {
+        width: 325px;
+        height: 193px;
+        object-fit: cover;
+    }
+}
+
+/* Estilos para smartphones */
+@media (max-width: 767px) {
+    /* Seus estilos para smartphones aqui */
+    .img-footer img{
+        width: 70%;
+        height: 80px;
+        border-radius: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+#btnScrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 9999;
+    background-color: #FFA500;
+}
+
+.formulario-contacto {
+  max-width: 500px; /* Ajuste o valor conforme necessário */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.form-group input,
+.form-group textarea,
+.formulario-contacto select {
+  margin-bottom: 15px;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.formulario-contacto {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .formulario-contacto input,
+  .formulario-contacto textarea,
+  .formulario-contacto select {
+    background-color: #f5f5f5;
+    border: solid 1px #FFA500;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #333;
+    
+  }
+
+  .formulario-contacto textarea {
+    resize: vertical;
+  }
+
+  .formulario-contacto button[type="submit"] {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .formulario-contacto button[type="submit"]:hover {
+    background-color: #FF9100;
+  }
